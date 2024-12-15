@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <p>
           ELAP1804 <br/>
-          Elavating Haitian voices. <br/>
+          Elevating Haitian voices. <br/>
           Coming Soon.
         </p>
       </header>
