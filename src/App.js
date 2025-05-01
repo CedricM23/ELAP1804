@@ -1,17 +1,24 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import { TypeAnimation } from 'react-type-animation';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Gallery from './Components/Gallery';
+import Culture from './Components/Culture';
+import People from './Components/People';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          ELAP1804 <br/>
-          Elevating Haitian voices. <br/>
-          Coming Soon.
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/gallery" element={<Gallery/>}/>
+      <Route path="/Culture" element={<Culture/>}/>
+      <Route path="/People" element={<People/>}/>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
