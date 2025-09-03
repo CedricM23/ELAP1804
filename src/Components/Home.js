@@ -7,16 +7,16 @@ import HaitiWaterfall from "../Images/HaitiWaterfall.jpg";
 import HaitiBoat from "../Images/HaitiBoat.webp";
 import HaitiCitadell from "../Images/HaitiCitadelle.webp";
 import Haitifj from "../Images/Haitifj.webp";
-import HaitiAbricot from '../Images/HaitiAbricot.jpg'
-import HaitiSiwel from '../Images/HaitiSiwel.jpeg'
-import HaitiKachiman from '../Images/HaitiKachiman.jpeg'
-import Haitikalbasik from '../Images/Haitikalbasik.jpg'
-import HaitiLamVeritab from '../Images/HiaitiLamVertiab.webp'
-import HaitiGrenadine from '../Images/HaitiGrenadin.jpg'
-import HaitiLalo from '../Images/HaitiLalo.png'
-import HaitiRiceandBeans from '../Images/HaitiRiceandBeans.jpg'
-import HaitiBouyon from '../Images/HaitiBouyon.jpg'
-import HaitiSoupJumou from '../Images/HaitiSoupJomou.webp'
+import HaitiAbricot from '../Images/HaitiAbricot.jpg';
+import HaitiSiwel from '../Images/HaitiSiwel.jpeg';
+import HaitiKachiman from '../Images/HaitiKachiman.jpeg';
+import Haitikalbasik from '../Images/Haitikalbasik.jpg';
+import HaitiLamVeritab from '../Images/HiaitiLamVertiab.webp';
+import HaitiGrenadine from '../Images/HaitiGrenadin.jpg';
+import HaitiLalo from '../Images/HaitiLalo.png';
+import HaitiRiceandBeans from '../Images/HaitiRiceandBeans.jpg';
+import HaitiBouyon from '../Images/HaitiBouyon.jpg';
+import HaitiSoupJumou from '../Images/HaitiSoupJomou.webp';
 
 function Home() {
   return (
